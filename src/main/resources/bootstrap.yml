@@ -1,0 +1,133 @@
+#server:
+#  port: 8182
+#
+#eureka:
+#  instance:
+#    preferIpAddress: true
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8070/eureka
+#
+#spring:
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          #issuer-uri: http://localhost:8080/realms/spring-microservice
+#          issuer-uri: http://localhost:8080/auth/realms/spring-microservice
+#          #jwk-set-uri: http://localhost:8080/realms/spring-microservices/protocol/openid-connect/certs
+#
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      #ddl-auto: update
+#      ddl-auto: create-drop
+#      dialect: org.hibernate.dialect.PostgreSQLDialect
+#    properties:
+#      hibernate.jdbc.batch_size: 20
+#      hibernate.cache.use_query_cache: false
+#      hibernate.cache.use_second_level_cache: false
+#      hibernate.cache.use_structured_entries: false
+#      hibernate.cache.use_minimal_puts: false
+#  datasource:
+#    #SPRING_DATASOURCE_URL environment variable will be something like -> jdbc:sqlserver://MySqlServer\\MyInstance:1433;DatabaseName=MyDbName;
+#    url: jdbc:postgresql://localhost:5432/products
+#    username: postgres
+#    password: 0510208486q
+#    #driverClassName: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+#server:
+#  port: 8182
+#
+#eureka:
+#  instance:
+#    preferIpAddress: true
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8070/eureka
+#
+#spring:
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          #issuer-uri: http://localhost:8080/realms/spring-microservice
+#          issuer-uri: http://localhost:8080/auth/realms/spring-microservice
+#          #jwk-set-uri: http://localhost:8080/realms/spring-microservices/protocol/openid-connect/certs
+#
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      #ddl-auto: create-drop
+#      #ddl-auto: create
+#      dialect: org.hibernate.dialect.PostgreSQLDialect
+#    properties:
+#      hibernate.jdbc.batch_size: 20
+#      hibernate.cache.use_query_cache: false
+#      hibernate.cache.use_second_level_cache: false
+#      hibernate.cache.use_structured_entries: false
+#      hibernate.cache.use_minimal_puts: false
+#  datasource:
+#    #SPRING_DATASOURCE_URL environment variable will be something like -> jdbc:sqlserver://MySqlServer\\MyInstance:1433;DatabaseName=MyDbName;
+#    url: jdbc:postgresql://localhost:5432/products
+#    username: postgres
+#    password: 0510208486q
+#    #driverClassNam
+
+#
+#server:
+#  port: 8182
+#
+#eureka:
+#  instance:
+#    preferIpAddress: true
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8070/eureka
+#
+#spring:
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      #ddl-auto: create-drop
+#      #ddl-auto: create
+#      dialect: org.hibernate.dialect.PostgreSQLDialect
+#    properties:
+#      hibernate.jdbc.batch_size: 20
+#      hibernate.cache.use_query_cache: false
+#      hibernate.cache.use_second_level_cache: false
+#      hibernate.cache.use_structured_entries: false
+#      hibernate.cache.use_minimal_puts: false
+#  datasource:
+#    #SPRING_DATASOURCE_URL environment variable will be something like -> jdbc:sqlserver://MySqlServer\\MyInstance:1433;DatabaseName=MyDbName;
+#    url: jdbc:postgresql://localhost:5432/products
+#    username: postgres
+#    password: 0510208486q
+#    #driverClassNam
+
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/users
+#    username: postgres
+#    password: 0510208486q
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#    database: postgresql
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
